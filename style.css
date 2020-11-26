@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    height: 100vh;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f504e;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+}
+.hader{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: inset 20px 20px 60px #434442, 
+            inset -20px -20px 60px #5b5c5a;
+            border-radius: 50px;
+            background: #4f504e;
+
+}
+.container {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+ button {
+     color:#ffffff;
+    font-size:1rem;
+    font-family: 'Poppins',sans-serif;
+    cursor:pointer;
+    padding:15px 30px;
+    margin: 20px;
+   outline: none;
+    border-radius:10px;
+    background-color: ;
+    box-shadow: inset 20px 20px 60px #434442, 
+    inset -20px -20px 60px #5b5c5a;
+    transition: box-shadow 0.6s ease-in-out;
+  } 
+  
+
+  
+  button:hover {
+    
+    background: linear-gradient(145deg, #555653, #474846);
+    box-shadow:  20px 20px 60px #434442, 
+                 -20px -20px 60px #5b5c5a;
+   
+   }
+ 
+
+#ukryte {
+    letter-spacing: 5px;
+    transform: scale(1.2, 1.2);
+    
+}
+
+.hader img{
+    width: 150px;
+    height: auto;
+}
